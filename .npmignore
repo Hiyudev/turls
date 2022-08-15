@@ -16,6 +16,7 @@ pnpm-lock.yaml
 tsup.config.ts
 tsconfig.json
 jest.config.js
+.eslintrc.js
 
 # Editor directories and files
 .vscode/*
