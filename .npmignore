@@ -10,7 +10,12 @@ lerna-debug.log*
 node_modules
 dist-ssr
 *.local
+
+# Configurations
 pnpm-lock.yaml
+tsup.config.ts
+tsconfig.json
+jest.config.js
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +27,4 @@ pnpm-lock.yaml
 *.njsproj
 *.sln
 *.sw?
+src/*

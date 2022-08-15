@@ -1,7 +1,7 @@
 {
   "name": "turls",
   "description": "A simple JavaScript utility for conditionally query string together.",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
