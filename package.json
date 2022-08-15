@@ -1,8 +1,9 @@
 {
   "name": "turls",
   "description": "A simple JavaScript utility for conditionally query string together.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "commonjs",
   "scripts": {
     "build": "tsup --target es5",
