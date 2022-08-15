@@ -1,10 +1,9 @@
 <h3>Turls</h3>
 A simple JavaScript utility for conditionally query string together.
 
-<br/>
+---
 
 ![](https://img.shields.io/npm/v/turls?color=DAE2B6&label=version&style=for-the-badge)
-![](https://img.shields.io/bundlephobia/min/turls?color=DAE2B6&label=size&style=for-the-badge)
 ![](https://img.shields.io/github/license/hiyudev/turls?color=DAE2B6&style=for-the-badge)
 
 ---
@@ -13,7 +12,7 @@ A simple JavaScript utility for conditionally query string together.
  <a href="#about">About</a> •
  <a href="#started">Getting started</a> •
  <a href="#authors">Authors</a> •
- <a href="#acknowledgement">Acknowledgements</a>
+ <a href="#acknowledgement">Acknowledgements</a> •
  <a href="#license">License</a>
 </p>
 
