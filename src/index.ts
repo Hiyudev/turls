@@ -19,7 +19,8 @@ export default function turls(...args: Argument[]): string {
 
         for (const key of keys) {
           if (arg[key]) {
-            url += `${key}&`;
+            const encodedKey = encodeURI(key);
+            url += `${encodedKey}&`;
           }
         }
 
