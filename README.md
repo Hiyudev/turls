@@ -4,7 +4,7 @@ A simple JavaScript utility for conditionally query string together.
 ---
 
 ![](https://img.shields.io/npm/v/turls?color=DAE2B6&label=version&style=for-the-badge)
-![](https://img.shields.io/github/license/hiyudev/turls?color=DAE2B6&style=for-the-badge)
+![](https://img.shields.io/npm/l/turls?color=DAE2B6&style=for-the-badge)
 
 ---
 
