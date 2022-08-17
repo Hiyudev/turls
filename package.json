@@ -1,10 +1,20 @@
 {
   "name": "turls",
   "description": "A simple JavaScript utility for conditionally query string together.",
-  "version": "0.0.5",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "type": "commonjs",
+  "version": "0.0.6",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"  
+  ],
+  "exports": {
+    ".": {
+      "require":  "./dist/index.js",
+      "default": "./dist/index.mjs"
+    }
+  },
+  "type": "module",
   "scripts": {
     "build": "tsup --target es5",
     "test": "jest",
@@ -29,7 +39,7 @@
     "turls",
     "urls"
   ],
-  "author": "",
+  "author": "Hiyudev",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Hiyudev/turls/issues"
