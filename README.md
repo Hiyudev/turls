@@ -14,7 +14,6 @@
  <a href="#started">Getting started</a> •
  <a href="#authors">Authors</a> •
  <a href="#acknowledgement">Acknowledgements</a> •
- <a href="#todos">TODOs</a> •
  <a href="#license">License</a>
 </p>
 
@@ -41,7 +40,17 @@ pnpm add turls
 
 2. Use the library:
 ```js
+// ESM
 import turls from 'turls';
+turls("https://api.example.com/", "query", {
+  "id=1": true,
+  "name=John Doe": true,
+  "age=30": true
+})
+// => "https://api.example.com/query?id=1&name=John%20Doe&age=30"
+
+// CommonJS
+const turls = require('turls');
 turls("https://api.example.com/", "query", {
   "id=1": true,
   "name=John Doe": true,
@@ -53,7 +62,6 @@ turls("https://api.example.com/", "query", {
 ## 🚀 Usage
 
 ```js
-import turls from 'turls';
 turls("https://api.example.com/", "query");
 // => "https://api.example.com/query"
 
@@ -81,10 +89,6 @@ turls("https://api.example.com/", "query", {
 })
 // => "https://api.example.com/query?name=John%20Doe"
 ```
-
-## ⚙️ TODO <a name = "todos"></a>
-[ ] Make library support Node.js
-
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@Hiyudev](https://github.com/Hiyudev)
