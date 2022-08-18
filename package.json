@@ -1,7 +1,7 @@
 {
   "name": "turls",
   "description": "A simple JavaScript utility for conditionally query string together.",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "type": "module",
   "main": "./dist/index.cjs",
   "types": "./dist/index.d.ts",
@@ -17,8 +17,7 @@
   ],
   "scripts": {
     "build": "tsup --target es5",
-    "test": "jest",
-    "publish": "npm publish --access public"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
