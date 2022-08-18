@@ -1,5 +1,7 @@
-module.exports = {
-  transform: {
-    "^.+\\.(t|j)sx?$": ["@swc/jest"],
-  },
+export default async () => {
+  return {
+    transform: {
+      "^.+\\.(t|j)sx?$": ["@swc/jest"],
+    },
+  };
 };
