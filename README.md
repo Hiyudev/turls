@@ -47,7 +47,7 @@ turls("https://api.example.com/", "query", {
   "name=John Doe": true,
   "age=30": true
 })
-// => "https://api.example.com/?id=1&name=John%20Doe&age=30"
+// => "https://api.example.com/query?id=1&name=John%20Doe&age=30"
 ```
 
 ## 🚀 Usage
