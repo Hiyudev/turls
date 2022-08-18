@@ -1,5 +1,6 @@
 <h3>Turls</h3>
-A simple JavaScript utility for conditionally query string together.
+
+> 🐢 A simple JavaScript utility for conditionally query string together.
 
 ---
 
@@ -13,6 +14,7 @@ A simple JavaScript utility for conditionally query string together.
  <a href="#started">Getting started</a> •
  <a href="#authors">Authors</a> •
  <a href="#acknowledgement">Acknowledgements</a> •
+ <a href="#todos">TODOs</a> •
  <a href="#license">License</a>
 </p>
 
@@ -79,6 +81,10 @@ turls("https://api.example.com/", "query", {
 })
 // => "https://api.example.com/query?name=John%20Doe"
 ```
+
+## ⚙️ TODO <a name = "todos"></a>
+[ ] Make library support Node.js
+
 
 ## ✍️ Authors <a name = "authors"></a>
 - [@Hiyudev](https://github.com/Hiyudev)
